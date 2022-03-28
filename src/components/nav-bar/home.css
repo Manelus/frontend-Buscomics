@@ -1,0 +1,13 @@
+.Body{
+    background-color: blueviolet;
+    position: relative;
+
+}
+h1{
+    color: gold;
+    font-size: 600%;
+}
+p{
+    color: yellowgreen;
+    font-size: 200%;
+}
