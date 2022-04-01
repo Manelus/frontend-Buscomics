@@ -50,7 +50,7 @@ class Login extends React.Component {
             </div>
         }
         <div className="text-center">
-            <h3 className="text-primary">Sign in</h3>
+            <h1 className="text-primary">Sign in</h1>
         </div>
         <Form noValidate onSubmit={this.handleSubmit} validated={this.state.validated}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -71,6 +71,7 @@ class Login extends React.Component {
               Please provide a password.
             </Form.Control.Feedback>
           </Form.Group>
+          <br></br>
           <Button variant="primary" type="submit">Aceptar</Button>
         </Form>
         {this.state.submitDone && <Navigate to={`/tiendas`} replace={true} />}

@@ -18,6 +18,7 @@ function Layout() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
+             <i class="icono-arrow1-left"></i>
             <li className={liClassName}>
             <NavLink className={({ isActive }) =>
                   isActive ? (navLink + ' ' + activeClassName) : navLink
@@ -31,10 +32,18 @@ function Layout() {
           </ul>
         </div>
       </nav>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="container-fluid vh-100">
         <div className="inner-margin">
           <div className="rounded d-flex justify-content-center">
-            <div className="col-md-4 col-sm-12 shadow-lg p-5 bg-light">
+            <div className="col-md-4 col-sm-12 shadow-lg p-5 bg-dark">
               <Outlet />
             </div>
           </div>

@@ -9,6 +9,7 @@ import Register from "./components/nav-bar/register";
 import NoMatch404 from "./components/nav-bar/404";
 import Login from './components/nav-bar/login';
 import Logout from './components/nav-bar/logout';
+import Agregar from './components/pages/agregar';
 import Tiendas from  "./components/pages/tiendas";
 import Busqueda from "./components/pages/busqueda";
 import Comics from "./components/pages/comics";
@@ -24,6 +25,7 @@ function App() {
           <Route path="logout" element={<Logout />} />
           <Route path="register" element={<Register />} />
           <Route path="*" element={<NoMatch404 />} />
+          <Route path="agregar" element={<Agregar />} />
           <Route path="tiendas" element={<Tiendas />} />
           <Route path="busqueda" element={<Busqueda />} />
           <Route path="comics" element={<Comics />} />

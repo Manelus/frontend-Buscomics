@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './home.css';
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         </div>
         <p>El buscador por excelencia de comics</p>
         </div>
+        <button className="button1"><Link to='/Busqueda'><h4>Empieza con la busqueda</h4></Link></button>
     </div>
   );
 }

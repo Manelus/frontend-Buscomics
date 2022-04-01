@@ -9,7 +9,7 @@ const Logout = () => {
         
     })
 
-    return <Navigate to='/'>logout</Navigate>
+    return <Navigate to='/login'>logout</Navigate>
 }
 
 export default Logout

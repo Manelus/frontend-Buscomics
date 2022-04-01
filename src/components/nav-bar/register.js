@@ -19,7 +19,7 @@ class Register extends React.Component {
       e.preventDefault();
 
       try {
-          Auth.registrar(
+          Auth.register(
               this.state.nombre,
               this.state.email,
               this.state.password
@@ -35,11 +35,11 @@ class Register extends React.Component {
       return (
           <div className="h-75 pb-5 d-flex flex-column align-items-between justify-content-center">
               <div>
-                <h2 className="mb-5">Sign up</h2>
+                <h1 className="mb-5">Sign up</h1>
                 <form onSubmit={this.handleSubmit}>
                   <div className="container d-flex flex-column align-items-between justify-content-center" >
                     <label className="row m-2">
-                      <p className="col-6">Nombre:</p>
+                      <p className="col-6">Nombre tienda:</p>
                       <input className="col-6" name="nombre" type='text' required value={this.state.nombre} onChange={this.handleChange} />
                     </label>
                     <label className="row m-2">
@@ -50,6 +50,8 @@ class Register extends React.Component {
                       <p className="col-6">Contraseña:</p>
                       <input className="col-6" name="password" type='password' required value={this.state.password} onChange={this.handleChange} />
                     </label>
+                    <br></br>
+                    <br></br>
                   </div>
                   <Button className="primary" type="submit">Registrarse</Button>
                 </form>

@@ -1,7 +1,6 @@
 .Body{
     background-color: blueviolet;
-    position: relative;
-
+    width: 33em;
 }
 h1{
     color: gold;
@@ -9,5 +8,20 @@ h1{
 }
 p{
     color: yellowgreen;
-    font-size: 200%;
+    font-size: 150%;
+    
 }
+
+.button1{
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    box-shadow: 2px 2px 2px blueviolet;
+    height: 15em;
+    border-radius: 50%;
+}
+
+
+
+
+

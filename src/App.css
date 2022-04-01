@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-image: url(../img/fondos-comic_23-2147508673.jpg);
-  background-repeat: repeat;
+  background-image: url(../img/29568.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -40,12 +41,10 @@
 }
 
 .navbar-brand{
-  background-color: darkmagenta;
-  font-style: inherit;
+  background-color: blueviolet;
+  border-radius: 40%;
 }
 
-.container-fluid vh-100{
-  background-color: lightslategray;
-}
+
 
 
