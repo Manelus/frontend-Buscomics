@@ -71,6 +71,17 @@ class AuthService {
         }
     }
 
+    async busqueda(nombre){
+        try {
+            const res = await axios.get(url + 'comics/buscar/' + nombre)
+            return res
+        } catch (error) {
+            console.log(error)
+            throw new Error(error.message)
+        }
+    }
+    
+
 }
 
 export default new AuthService()

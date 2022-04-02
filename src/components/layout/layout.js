@@ -43,7 +43,7 @@ function Layout() {
       <div className="container-fluid vh-100">
         <div className="inner-margin">
           <div className="rounded d-flex justify-content-center">
-            <div className="col-md-4 col-sm-12 shadow-lg p-5 bg-dark">
+            <div className="col-md-4 col-sm-12 shadow-lg p-5 bg-light">
               <Outlet />
             </div>
           </div>
