@@ -60,9 +60,9 @@ function Search(props) {
                 <td>{comic.precio}</td>
                 <td>{comic.autor}</td>
                 <td>{comic.personaje}</td>
-                <td>{comic.imagen}</td>
+                <td><a href={comic.imagen}>enlace</a></td>
                 <td>{comic.nombre_tienda}</td>
-                <td>{comic.enlace}</td>
+                <td><a href={comic.enlace}>enlace</a></td>
               </tr>
             ))
           )}
