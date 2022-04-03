@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Outlet} from "react-router-dom";
+import { NavLink, Outlet, Link} from "react-router-dom";
 import '../../App';
 
 function Layout() {
@@ -12,7 +12,7 @@ function Layout() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button className="navbar-brand">Buscomics</button>
+        <button className="navbar-brand "><Link to="/">Buscomics</Link></button>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -1,4 +1,4 @@
-# Backend Buscomics
+# Frontend Buscomics
 
 En este trabajo se han usado las tecnologias:</br>
 -ES6</br>

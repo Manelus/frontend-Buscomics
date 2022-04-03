@@ -12,7 +12,6 @@ import Logout from './components/nav-bar/logout';
 import Agregar from './components/pages/agregar';
 import Tiendas from  "./components/pages/tiendas";
 import Busqueda from "./components/pages/busqueda";
-import Comics from "./components/pages/comics";
 
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
           <Route path="agregar" element={<Agregar />} />
           <Route path="tiendas" element={<Tiendas />} />
           <Route path="busqueda" element={<Busqueda />} />
-          <Route path="comics" element={<Comics />} />
         </Route>
       </Routes>
       
